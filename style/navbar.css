@@ -1,0 +1,98 @@
+/* Navbar icon */
+.navbar-icon {
+  width: 50px;
+  margin-left: 20px;
+  position: relative;
+}
+
+.image-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Navbar title */
+.navbar-title {
+  margin-right: 20px;
+}
+
+/* Navbar project link */
+.navbar-project {
+  font-size: 15px;
+  margin-right: 20px;
+}
+
+/* Navbar links */
+.navbar-project,
+.instagram-link,
+.about-myself-info,
+.contact-info {
+  font-family: Arial;
+  font-size: 15px;
+  display: inline;
+  margin-right: 10px;
+}
+
+/* General container */
+.general-container {
+  display: flex;
+  margin-top: 20px;
+}
+
+/* Navbar container 1 */
+.navbar-container1 {
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar container 2 */
+.navbar-container2 {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding-top: 20px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Navbar container 1 image */
+.navbar-container1 img {
+  margin-right: 10px;
+}
+
+/* Media queries for responsive behavior */
+@media (max-width: 768px) {
+  /* Reduce navbar icon size */
+  .navbar-icon {
+    width: 30px;
+  }
+
+  /* Hide navbar title */
+  .navbar-title {
+    display: none;
+  }
+
+  /* Adjust margin for navbar project link */
+  .navbar-project {
+    margin-right: 10px;
+  }
+
+  /* Adjust margin for other navbar links */
+  .navbar-project,
+  .instagram-link,
+  .about-myself-info,
+  .contact-info {
+    margin-right: 5px;
+  }
+
+  /* Adjust padding and margin for navbar container 2 */
+  .navbar-container2 {
+    padding-top: 10px;
+    margin-top: 10px;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
+
