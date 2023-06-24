@@ -1,3 +1,24 @@
+div.homepage-container {
+    width: 500px;
+    margin-top: 80px;
+    margin-left: 30px;
+}
+
+p.greeting-paragraph {
+  margin-top: 16px;
+  margin-bottom: 24px;
+  font-weight: 100;
+}
+
+button.homepage-view-button {
+  border: none;
+  background-color: aqua;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 7.5px;
+}
+
 .navbar-container {
   padding: 5px;
   display: flex;
@@ -8,6 +29,7 @@
   display: inline;
   margin-right: 60px;
   margin-left: 10px;
+  font-weight: 700;
 }
 
 .navbar-project {
@@ -15,16 +37,60 @@
 }
 
 .instagram-link {
-  margin-right: 10px;
+  margin-right: 13px;
   display: inline;
 }
 
 .about-myself-info {
-  margin-right: 10px;
+  margin-right: 13px;
   display: inline;
 }
 
 .contact-info {
-  margin-right: 10px;
+  margin-right: 13px;
   display: inline;
+}
+
+div.square0 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(119, 255, 78);
+  position: absolute;
+  left: 425px;
+  top:329px;
+  z-index: 4;
+  transform: rotate(20deg);
+}
+
+div.square1 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 243, 78);
+  position: absolute;
+  left: 395px;
+  top:329px;
+  z-index: 3;
+  transform: rotate(20deg);
+}
+
+div.square2 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(255, 15, 15);
+  position: absolute;
+  left: 365px;
+  top:329px;
+  z-index: 2;
+  transform: rotate(20deg);
+}
+
+div.square3 {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(54, 108, 255);
+  position: absolute;
+  left: 335px;
+  top:329px;
+  z-index: 1;
+  transform: rotate(20deg);
 }
