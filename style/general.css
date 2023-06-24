@@ -4,3 +4,19 @@
 body {
   font-family: 'Roboto Mono', sans-serif, Arial;
 }
+
+button.homepage-view-button:hover {
+  background-color: rgb(128, 211, 211);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
