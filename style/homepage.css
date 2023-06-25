@@ -1,12 +1,35 @@
-div.homepage-container {
-    width: 500px;
-    margin-top: 80px;
-    margin-left: 30px;
+.nav-list {
+  display: flex;
+  list-style: none;
+
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.columns {
+  display: flex;
+
+  flex-direction: column;
+  flex-basis: 100%;
+}
+
+.columns,
+.nav-list {
+  display: flex;
+  flex-basis: 100%;
+}
+
+.columns > * {
+  padding: 0px;
+}
+
+.clumns > .h1 {
+  padding: 0;
 }
 
 p.greeting-paragraph {
-  margin-top: 16px;
-  margin-bottom: 24px;
   font-weight: 100;
 }
 
@@ -15,88 +38,28 @@ button.homepage-view-button {
   background-color: aqua;
   font-size: 16px;
   font-weight: bold;
-  padding: 15px;
+  width: 150px;
   border-radius: 7.5px;
   cursor: pointer;
 }
 
-.navbar-container {
-  padding: 5px;
-  display: flex;
-  align-items: center;
-}
-
 .navbar-title {
-  display: inline;
-  margin-right: 60px;
-  margin-left: 10px;
   font-weight: 700;
   cursor: pointer;
 }
 
 .navbar-project {
-  margin-right: 700px;
   cursor: pointer;
 }
 
 .instagram-link {
-  margin-right: 13px;
-  display: inline;
   cursor: pointer;
 }
 
 .about-myself-info {
-  margin-right: 13px;
-  display: inline;
   cursor: pointer;
 }
 
 .contact-info {
-  margin-right: 13px;
-  display: inline;
   cursor: pointer;
-}
-
-div.square0 {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(119, 255, 78);
-  position: absolute;
-  left: 425px;
-  top:329px;
-  z-index: 4;
-  transform: rotate(20deg);
-}
-
-div.square1 {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(255, 243, 78);
-  position: absolute;
-  left: 395px;
-  top:329px;
-  z-index: 3;
-  transform: rotate(20deg);
-}
-
-div.square2 {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(255, 15, 15);
-  position: absolute;
-  left: 365px;
-  top:329px;
-  z-index: 2;
-  transform: rotate(20deg);
-}
-
-div.square3 {
-  height: 50px;
-  width: 50px;
-  background-color: rgb(54, 108, 255);
-  position: absolute;
-  left: 335px;
-  top:329px;
-  z-index: 1;
-  transform: rotate(20deg);
 }
