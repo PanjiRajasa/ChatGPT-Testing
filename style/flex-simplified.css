@@ -10,3 +10,14 @@
 .nav-list li {
   flex-wrap: wrap;
 }
+
+.colom {
+  display: flex;
+
+  gap: 1rem;
+  flex-direction: column;
+}
+
+.colom > * {
+  flex: 1;
+}
