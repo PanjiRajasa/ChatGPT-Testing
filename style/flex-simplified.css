@@ -15,9 +15,28 @@
   display: flex;
 
   gap: 1rem;
-  flex-direction: column;
 }
 
 .colom > * {
   flex: 1;
+}
+
+.column2 {
+  display: flex;
+  gap: 1rem;
+}
+
+.column2 > * {
+  flex: 1;
+}
+
+@media only screen and (max-width: 1000px) {
+  .colom,
+  .column2 {
+    flex-direction: column;
+  };
+
+  .column2 > * {
+    justify-content: space-evenly;
+  }
 }
